@@ -22,5 +22,5 @@ jobs:
         run: npm install
 
       - name: Executar Testes
-        run: git update-index --chmod=+x (npm run test).sh 
+        run: git update-index --chmod=+x npm run test.sh 
 
