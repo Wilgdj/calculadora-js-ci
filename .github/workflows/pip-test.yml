@@ -19,7 +19,7 @@ jobs:
           node-version: 18
 
       - name: Instalar Dependências
-        run: npm install
+        run: npm install -g jest
 
       - name: Executar Testes
         run: npm test
