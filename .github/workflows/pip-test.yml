@@ -1,4 +1,4 @@
-name: Execução dos testes unitários com jest
+name: Node.js CI
 
 on:
   push:
@@ -22,5 +22,5 @@ jobs:
         run: npm install
 
       - name: Executar Testes
-        run: npm jest
+        run: npm test
 
